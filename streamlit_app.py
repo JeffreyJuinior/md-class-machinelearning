@@ -1,7 +1,10 @@
 import streamlit as st
 
-st.title('Machine Learning App')
+def main():
 
-st.info('This app for dhermatology classification')
+  st.title('Machine Learning App')
+  
+  st.info('This app for dhermatology classification')
 
-
+if __name__=="__main__":
+  main()
