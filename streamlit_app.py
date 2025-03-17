@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-#model = joblib.load('trained_model.pkl')
+model = joblib.load('trained_model.pkl')
 
 def main():
 
