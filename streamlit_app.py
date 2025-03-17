@@ -1,5 +1,5 @@
 import streamlit as st
-
+import joblib
 def main():
 
   st.title('Machine Learning App')
@@ -48,6 +48,10 @@ def main():
                thinning_suprapapillary_epidermis, spongiform_pustule, munro_microabcess, focal_hypergranulosis, disappearance_granular_layer,
                vacuolisation_damage_basal_layer, spongiosis, saw_tooth_appearance_retes, follicular_horn_plug, perifollicular_parakeratosis,
                inflammatory_mononuclear_infiltrate, band_like_infiltrate, age] 
+
+  model = joblib.load('trained_model.pkl')
+  prediction = model.predict(user_input)
+  st.write('The prediction output is: ', prediction[0])
 
 if __name__=="__main__":
   main()
