@@ -10,7 +10,7 @@ def main():
   scaling = st.slider('Scaling', min_value = 0, max_value = 3, value = 2)
   definite_borders = st.slider('Definite Borders', min_value = 0, max_value = 3, value = 2)
   itching = st.slider('Itching', min_value = 0, max_value = 3, value = 0)
-  koebner_phenomenon = st.slider('Itching', min_value = 0, max_value = 3, value = 0)
+  koebner_phenomenon = st.slider('koebner_phenomenon', min_value = 0, max_value = 3, value = 0)
   polygonal_papules = st.slider('Polygonal Papules', min_value = 0, max_value = 3, value = 0)
   follicular_papules = st.slider('Follicular Papules', min_value = 0, max_value = 3, value = 0)
   oral_mucosal_involvement = st.slider('Oral Mucosal Involvement', min_value = 0, max_value = 3, value = 0)
