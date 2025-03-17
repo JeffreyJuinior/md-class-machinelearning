@@ -53,8 +53,8 @@ def main():
                inflammatory_mononuclear_infiltrate, band_like_infiltrate, age] 
 
   
-  #prediction = model.predict(user_input)
-  #st.write('The prediction output is: ', prediction[0])
+  prediction = model.predict(user_input)
+  st.write('The prediction output is: ', prediction[0])
 
 if __name__=="__main__":
   main()
