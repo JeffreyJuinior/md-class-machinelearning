@@ -36,7 +36,7 @@ def main():
   spongiosis = st.slider('Spongiosis', min_value = 0, max_value = 3, value = 0)
   saw_tooth_appearance_retes = st.slider('saw tooth appearance retes', min_value = 0, max_value = 3, value = 0)
   follicular_horn_plug = st.slider('follicular horn plug', min_value = 0, max_value = 3, value = 0)
-  perifollicular_parakeratosis = st.slidepolygonal_papules = st.slider('Polygonal Papules', min_value = 0, max_value = 3, value = 0)r('perifollicular parakeratosis', min_value = 0, max_value = 3, value = 0)
+  perifollicular_parakeratosis = st.slider('perifollicular parakeratosis', min_value = 0, max_value = 3, value = 0)
   inflammatory_mononuclear_infiltrate = st.slider('inflammatory mononuclear infiltrate', min_value = 0, max_value = 3, value = 2)
   band_like_infiltrate = st.slider('band like infiltrate', min_value = 0, max_value = 3, value = 0)
   age = st.slider('age', min_value = 0, max_value = 75, value = 40)
